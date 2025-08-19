@@ -21,6 +21,28 @@ A simple and clean todo list application built with Next.js, TypeScript, Tailwin
 - **Database**: SQLite with Prisma ORM
 - **API**: Next.js API Routes
 
+## 🚀 QuickStart
+
+Get the todo app running in under 2 minutes:
+
+```bash
+# Clone the repository
+git clone https://github.com/arun-gupta/todo-app.git
+cd todo-app
+
+# Install dependencies
+npm install
+
+# Set up the database
+npm run db:generate
+npm run db:push
+
+# Start the development server
+npm run dev
+```
+
+**That's it!** Open [http://localhost:3000](http://localhost:3000) in your browser and start managing your tasks! 🎉
+
 ## Getting Started
 
 ### Prerequisites
