@@ -23,7 +23,27 @@ A simple and clean todo list application built with Next.js, TypeScript, Tailwin
 
 ## 🚀 QuickStart
 
-Get the todo app running in under 2 minutes:
+### Option 1: Automated Setup (Recommended)
+Run the automated script that does everything for you and opens the browser:
+
+```bash
+# Clone the repository
+git clone https://github.com/arun-gupta/todo-app.git
+cd todo-app
+
+# Run the automated quickstart script
+./quickstart.sh
+```
+
+The script will:
+- ✅ Check Node.js and npm installation
+- ✅ Install all dependencies
+- ✅ Set up the database
+- ✅ Start the development server
+- ✅ Automatically open your browser to http://localhost:3000
+
+### Option 2: Manual Setup
+If you prefer to run commands manually:
 
 ```bash
 # Clone the repository
